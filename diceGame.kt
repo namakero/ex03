@@ -7,4 +7,8 @@ fun main(){
 	println("Die 1: $dieOne")
 	println("Die 2: $dieTwo")
 	println("Total value: ${dieOne + dieTwo}")
+
+	println("What is your name?")
+	val name = readLine()
+	println("Hello, $name!")
 }
