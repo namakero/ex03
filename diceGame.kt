@@ -13,8 +13,8 @@ fun main(){
 	println("Total value: ${dieplayer + diecpu}")
 
 	if(dieOne > dieTwo){
-		println("You won")
+		println("$name won!")
 	}else{
-		println("You lose")
+		println("$name lost")
 	}
 }
