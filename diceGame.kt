@@ -7,4 +7,10 @@ fun main(){
 	println("Die 1: $dieOne")
 	println("Die 2: $dieTwo")
 	println("Total value: ${dieOne + dieTwo}")
+
+	if(dieOne > dieTwo){
+		println("You won")
+	}else{
+		println("You lose")
+	}
 }
