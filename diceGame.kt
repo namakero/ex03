@@ -1,14 +1,20 @@
 import kotlin.random.Random
 
 fun main(){
-	val dieOne = Random.nextInt(1,7)
-	val dieTwo = Random.nextInt(1,7)
-	println("Rolling dice...")
-	println("Die 1: $dieOne")
-	println("Die 2: $dieTwo")
-	println("Total value: ${dieOne + dieTwo}")
-
-	println("What is your name?")
+  println("What is your name?")
 	val name = readLine()
 	println("Hello, $name!")
+  
+	val dieplayer = Random.nextInt(1,7)
+	val diecpu = Random.nextInt(1,7)
+	println("Rolling dice...")
+	println("Die 1: $dieplayer")
+	println("Die 2: $diecpu")
+	println("Total value: ${dieplayer + diecpu}")
+
+	if(dieOne > dieTwo){
+		println("You won")
+	}else{
+		println("You lose")
+	}
 }
